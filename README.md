@@ -14,14 +14,16 @@ This repository provides Terraform configurations to set up a Jenkins server hos
 │   ├── provider.tf
 │   ├── jenkins-install.sh
 │   └── variables.tf
-│     └── ConfFiles
-│          ├── deploy.yaml 
-│          └── service.yaml 
 │   
 ├── EKS
+│   ├── data.tf
 │   ├── main.tf
+│   ├── provider.tf
 │   ├── variables.tf
-│   └── outputs.tf
+│   └── ConfFiles
+│       ├── deploy.yaml 
+│       └── service.yaml 
+├── jenkinsfile
 └── README.md
 ```
 
