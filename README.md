@@ -4,11 +4,6 @@
 
 This repository provides Terraform configurations to set up a Jenkins server hosted on AWS and create an Amazon EKS (Elastic Kubernetes Service) environment with NGINX installed. The goal is to automate the provisioning of the infrastructure needed for continuous integration and deployment.
 
-## Prerequisites
-
-- **Terraform**: Ensure you have Terraform installed on your machine. You can download it from [Terraform's official website](https://www.terraform.io/downloads.html).
-instructions.
-
 ## Directory Structure
 
 ```
@@ -21,9 +16,9 @@ instructions.
 │   └── variables.tf
 │     └── ConfFiles
 │          ├── deploy.yaml 
-│          ├── service.yaml 
+│          └── service.yaml 
 │   
-├── eks
+├── EKS
 │   ├── main.tf
 │   ├── variables.tf
 │   └── outputs.tf
@@ -87,3 +82,5 @@ To clean up the resources created by Terraform, navigate to the respective direc
 ```bash
 terraform destroy
 ```
+
+https://www.youtube.com/watch?v=wY8VFIAz_Og
