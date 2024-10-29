@@ -84,5 +84,3 @@ To clean up the resources created by Terraform, navigate to the respective direc
 ```bash
 terraform destroy
 ```
-
-https://www.youtube.com/watch?v=wY8VFIAz_Og
